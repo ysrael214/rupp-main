@@ -31,6 +31,9 @@ body{
 	color: #141414;
 }
 
+a:hover{
+	text-decoration: none;
+}
 
 .site-container{
 	height: 100vh;
@@ -118,6 +121,11 @@ body{
 	font-weight: 600;
 }
 
+.home-content a{
+	color: #f59d29;
+}
+
+
 .slide-bg{
 	position: absolute;
 	top: 0;
@@ -138,6 +146,10 @@ body{
 	background-color: #f59d29;
 }
 
+.carousel-control-next, .carousel-control-prev{
+	width: 10%;
+}
+
 
 @media only screen and (min-width: 2560px) {
     .container-fluid, .container{
@@ -145,3 +157,5 @@ body{
     }
 
 }
+
+/* MyX_214 */
