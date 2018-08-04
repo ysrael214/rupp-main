@@ -18,7 +18,7 @@
 /* Start */
 
 *{
-	transition: 0.09s;
+	transition: 0.07s ease-in-out;
 	letter-spacing: 0.03rem;
 }
 
