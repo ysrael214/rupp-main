@@ -5,22 +5,14 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Arimo');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 html{
 	background: #f0f0f0;
 }
 
 body{
-	background: #e95420; /* Old browsers */
-	background: -moz-linear-gradient(top, #e95420 0%, #8d1437 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e95420 0%,#8d1437 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e95420 0%,#8d1437 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e95420', endColorstr='#8d1437',GradientType=0 ); /* IE6-9 */
-	background-size: cover;
 	font-family: "Arimo", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	color: white;
-	background-repeat: no-repeat; 
+	color: #141414;
 }
 
 
