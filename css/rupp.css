@@ -28,6 +28,10 @@ body{
 	height: 100vh;
 }
 
+.navbar{
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
 .navbar .navbar-brand{
-	max-width: 250px;
+	max-width: 200px;
 }
