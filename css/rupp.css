@@ -6,8 +6,24 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
+
+
+/*  Font */
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("../fonts/Avenir Roman/avenir_roman.otf");
+    font-weight: normal;  
+}
+
+/* Start */
+
+*{
+	transition: 0.09s;
+	letter-spacing: 0.03rem;
+}
+
 html{
-	background: #f0f0f0;
+	
 }
 
 body{
@@ -18,12 +34,113 @@ body{
 
 .site-container{
 	height: 100vh;
+	background-color: #eaeaea;
 }
 
-.navbar{
+.rupp-navbar{
 	border-bottom: 1px solid rgba(0,0,0, 0.2);
+	position: fixed;
+	top: 0;
+	z-index: 99999;
 }
 
-.navbar .navbar-brand img{
-	max-width: 200px;
+.rupp-navbar .tabs-navbar .navbar-brand, .rupp-navbar .tabs-navbar a{
+	font-family: "Avenir Roman";
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: white;
+}
+
+.rupp-navbar .navbar-brand img{
+	max-width: 175px;
+}
+
+.rupp-navbar .search-navbar{
+	background-color: #f9f9f9; 
+
+}
+
+.rupp-navbar .search-bar{
+	background-color: transparent; 
+	font-family: "Avenir Roman";
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.rupp-navbar .search-bar:focus{
+	outline: none;
+	box-shadow: none;
+	border-bottom-color: #141414;
+	color: #141414;
+}
+
+.rupp-navbar .tabs-navbar {
+	background-color: #810f1b; 
+	min-height: 35px;
+
+}
+
+.rupp-navbar .tabs-navbar .tabs a{
+	padding: .5em 1.5rem;
+	margin: auto;
+	text-decoration: none;
+}
+
+.rupp-navbar .tabs-navbar .tabs a:hover{
+	color: #f59d29;
+	
+}
+
+.rupp-navbar .tabs-navbar .tabs a:focus{
+	color: white;
+	background-color: #f59d29;
+}
+
+.home-content .carousel .carousel-item{
+	min-height: 100vh;
+}
+
+.home-content .carousel .carousel-item ..row div{
+	position: relative;
+}
+
+.home-content{
+	background-image: url(https://pre00.deviantart.net/00c1/th/pre/f/2016/218/4/1/vector_wallpaper_3440x1440_by_friekdesign-dactfp5.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	color: #f9f9f9;
+}
+
+.home-content h3{
+	font-weight: bold;
+}
+
+.slide-bg{
+	position: absolute;
+	top: 0;
+	z-index: -10;
+	height: 100vh;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.carousel-indicators li{
+	border-radius: 20px;
+	height: 5px;
+	width: 25px;
+}
+
+.carousel-indicators .active{
+	background-color: #f59d29;
+}
+
+
+@media only screen and (min-width: 2560px) {
+    .container-fluid, .container{
+    	max-width: 1440px !important;
+    }
+
 }

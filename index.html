@@ -1,12 +1,145 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
    		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
    		<link rel="stylesheet" type="text/css" href="css/rupp.css">
 	</head>
-	<body class="site-container">
-		<div class="navbar">
-			<a class="navbar-brand" href="#" ><img src="images/brand.png"></a>
+	<body>
+		<div class="site-container d-flex flex-column">
+			<nav class="rupp-navbar w-100">
+				<div class="navbar tabs-navbar w-100">
+					<div class="container align-content-right">
+						<span class="navbar-brand my-auto">Rate UP Professors</span>
+
+						<div class="d-inline-flex tabs mx-auto">
+
+							<a class="my-auto" href="#">
+						    	<i class="fas fa-user-plus"></i>
+						    	<span class="d-none d-lg-inline-block">Add Professor</span>
+						    </a>
+
+						    <a class="my-auto" href="#">
+						    	<i class="fas fa-list-ul"></i>
+						    	<span class="d-none d-lg-inline-block">All Professors</span>
+						    </a>
+
+						    <a class="my-auto" href="#">
+						    	<i class="fas fa-eye"></i>
+						    	<span class="d-none d-lg-inline-block">Profs Needing Review</span>
+						    </a>
+
+						    <a class="my-auto" href="#">
+						    	<i class="fas fa-envelope"></i>
+						    	<span class="d-none d-lg-inline-block">Contact</span>
+						    </a>
+
+						    <a class="fb-link my-auto" href="#">
+						    	<i class="fas fa-toolbox"></i>
+						    	<span class="d-none d-lg-inline-block">CRS Tooltip</span>
+						    </a>
+						 </div>
+					</div>
+				</div>
+
+				<div class="navbar search-navbar w-100">
+					<div class="container">
+						<a class="navbar-brand mx-auto d-none d-md-block" href="#" ><img src="images/brand.png"></a>
+
+						<div class="d-flex w-75 mx-auto">
+							<i class="fas fa-search mr-3 my-auto"></i>
+							 <form class="form-inline w-100 my-auto">
+						      <input class="form-control mx-auto w-100 search-bar" type="search" placeholder="Search Professor / Class" aria-label="Search">
+						    </form>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="h-100 d-flex home-content">
+				<div id="home" class="carousel slide w-100 d-flex" data-ride="carousel">
+				  <ol class="carousel-indicators position-fixed" style="bottom: 0">
+				    <li data-target="#home" data-slide-to="0" class="active"></li>
+				    <li data-target="#home" data-slide-to="1"></li>
+				    <li data-target="#home" data-slide-to="2"></li>
+				    <li data-target="#home" data-slide-to="3"></li>
+				  </ol>
+				  <div class="carousel-inner text-left d-flex flex-column">
+				    <div class="carousel-item active h-100">
+				    	<div class=" w-100 d-flex slide-bg">
+				    	</div>	
+				    	<div class="container h-100 d-flex">
+
+				    		<div class="my-auto mx-auto">
+				    			<div class="row">
+				    				<div class="col-lg-6 my-auto">
+				    					<h3 class="h3">Hello, UP Students!</h3>
+										<p>Welcome to Rate UP Professors, the most comprehensive database for knowing your professors</p>
+				    				</div>
+				    				<div class="col-lg-6 text-center">
+				    					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/University_of_The_Philippines_seal.svg/240px-University_of_The_Philippines_seal.svg.png">
+				    				</div>
+				    			</div>
+						      	
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item h-100">
+
+				    	<div class="container h-100 d-flex">
+				    		<div class="my-auto mx-auto">
+				    			<div class="row">
+				    				<div class="col-lg-6">
+								      	<img src="https://static.npmjs.com/images/collaboration-security.svg">
+							      	</div>
+				    				<div class="col-lg-6 mt-auto">
+								      	<h3 class="h3"> Completely Secure <i class="fas fa-user-secret"></i></h3>
+							      		<p>We are not going to share your ip-address or email to anyone, so you can anonymously review your professors without fear of them knowing who you are!</p>
+							      	</div>
+						      	</div>
+					      	</div>
+						</div>
+				    	
+				    </div>
+				    <div class="carousel-item h-100">
+				    	<div class="container h-100 d-flex">
+				    		<div class="my-auto mx-auto">
+				    			<div class="row">
+				    				<div class="col-lg-6">
+								      	<h3 class="h3"> By UP Students, for UP Students <i class="fas fa-book-reader"></i></h3>
+								      	<p>Rate UP Professors (RUPP) is created by an incoming freshman of UP Diliman as a service to find the best professors in the campus.
+								      	</p>
+								     </div>
+								     <div class="col-lg-6">
+								      	<p> Did you get that? An incoming freshman made this website (Batch 2014 Wooh!), so feel free to contact me if you find any bugs and/or want to invite me to parties :P</p>
+								      	</p>
+								     </div>
+
+							      	
+							     </div>
+						    </div>
+				      	</div>
+				    </div>
+
+				    <div class="carousel-item h-100">
+				    	<div class="container h-100 d-flex">
+				    		<div class="my-auto mx-auto">
+						      	<h3 class="h3"> More Features! </h3>
+						      	<p>RUPP is continuously improving and gaining new features. Have an idea? Feel free to request more features through my email on the left.</p>
+						     </div>
+					     </div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#home" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#home" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
 		</div>
 		<script src="js/jquery-3.3.1.min.js"></script>
 	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
