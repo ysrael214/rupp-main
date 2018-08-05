@@ -154,4 +154,11 @@ a:hover{
 
 }
 
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .rupp-navbar {
+        position: relative;
+    }
+}
+
+
 /* MyX_214 */
