@@ -109,11 +109,7 @@ a:hover{
 }
 
 .home-content{
-	background-image: url(https://pre00.deviantart.net/00c1/th/pre/f/2016/218/4/1/vector_wallpaper_3440x1440_by_friekdesign-dactfp5.png);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	color: #f9f9f9;
+	color: #141414;
 }
 
 .home-content h3{
